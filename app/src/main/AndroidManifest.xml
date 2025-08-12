@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/fitlife"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/fitlife"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DoctorChannelingApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".terms_and_condition"
+            android:exported="false" />
+        <activity
+            android:name=".res_submited_c"
+            android:exported="false" />
+        <activity
+            android:name=".call1"
+            android:exported="false" />
+        <activity
+            android:name=".res_submited"
+            android:exported="false" />
+        <activity
+            android:name=".review"
+            android:exported="false" />
+        <activity
+            android:name=".update_profile"
+            android:exported="false" />
+        <activity
+            android:name=".successful_page"
+            android:exported="false" />
+        <activity
+            android:name=".doc1_channel"
+            android:exported="false" />
+        <activity
+            android:name=".doctor1"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".contactus"
+            android:exported="false" />
+        <activity
+            android:name=".channel_doc2"
+            android:exported="false" />
+        <activity
+            android:name=".channel_doc"
+            android:exported="false" />
+        <activity
+            android:name=".app_intro3"
+            android:exported="false" />
+        <activity
+            android:name=".app_intro2"
+            android:exported="false" />
+        <activity
+            android:name=".app_intro"
+            android:exported="false" />
+        <activity
+            android:name=".home_page"
+            android:exported="false" />
+        <activity
+            android:name=".sign_up"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

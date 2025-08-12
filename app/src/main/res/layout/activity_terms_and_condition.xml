@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".terms_and_condition">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="20dp"
+        android:text="Terms and Condition"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="372dp"
+        android:layout_height="710dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp"
+                android:text="1. Acceptance of Terms: By accessing or using our Doctor Channeling App, you agree to abide by these terms and conditions. If you do not agree with any part of these terms, please refrain from using the app."
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp"
+                android:text="2. User Eligibility: You must be at least 18 years old to use our app. By using the app, you confirm that you meet this age requirement and have the legal capacity to enter into this agreement."
+                android:textSize="16sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp"
+                android:text="3. Booking Appointments: Our app allows you to schedule appointments with healthcare providers listed on our platform. While we strive to provide accurate appointment availability, please note that the final appointment schedule is subject to the discretion of the healthcare provider."
+                android:textSize="16sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp"
+                android:text="4. Payment: Certain appointments may require payment through the app. By booking such appointments, you agree to pay the specified fees promptly. All payments made through the app are final and non-refundable unless otherwise stated."
+                android:textSize="16sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp"
+                android:text="5. User Responsibilities:  You are responsible for providing accurate and current information during the registration process, You agree to use the app solely for lawful purposes and not to engage in any unauthorized or illegal activities, Safeguarding your account credentials and ensuring the confidentiality of your account information is your responsibility."
+                android:textSize="16sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp"
+                android:text="6. Privacy Policy: Your privacy is important to us. Please review our Privacy Policy to understand how we collect, use, and disclose your personal information when you use our app."
+                android:textSize="16sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp"
+                android:text="7. Intellectual Property: All content and materials available on our app, including text, graphics, logos, and software, are the property of the app or its licensors and are protected by intellectual property laws."
+                android:textSize="16sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp"
+                android:text='8. Disclaimer of Warranties: The Doctor Channeling App is provided on an "as is" and "as available" basis. We do not warrant that the app will be error-free or uninterrupted, nor do we guarantee the accuracy or reliability of any information provided on the app.'
+                android:textSize="16sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp"
+                android:text="9. Limitation of Liability: We shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or in connection with your use of the app."
+                android:textSize="16sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp"
+                android:text="10. Indemnification: You agree to indemnify and hold harmless the app, its affiliates, and their respective officers, directors, employees, and agents from and against any claims, liabilities, damages, losses, or expenses arising from your use of the app."
+                android:textSize="16sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp"
+                android:text="11. Changes to Terms: We reserve the right to update or modify these terms and conditions at any time. Any changes will be effective immediately upon posting. Your continued use of the app after such changes constitutes your acceptance of the revised terms."
+                android:textSize="16sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp"
+                android:text="12. Contact Us: If you have any questions or concerns about these terms and conditions, please contact us"
+                android:textSize="16sp">
+
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="41dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="354dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032"
+        app:srcCompat="@drawable/img_13" />
+
+    <Button
+        android:id="@+id/btn_back6"
+        android:layout_width="42dp"
+        android:layout_height="29dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

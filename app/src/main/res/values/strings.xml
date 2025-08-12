@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Doctor Channeling App</string>
+    <string name="btn_sign_in">Sign in</string>
+    <string name="btn_sign_up">Sign up</string>
+    <string name="btn_signup2">Sign up</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_back5">Back</string>
+    <string name="btn_ok1">Ok</string>
+    <string name="btn_booknow1">Book now</string>
+    <string name="btn_contact1">Contact</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_done2">Done</string>
+    <string name="c_btn">Channel now</string>
+</resources>
